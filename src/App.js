@@ -13,6 +13,10 @@ function App() {
       phone:"7019879155"
     }
   ]
+
+  function deleteHandler(){
+    alert("delete clicked");
+  }
   return (
     <div>
       <Header headerName="Phone Directory"/>
@@ -27,7 +31,7 @@ function App() {
             return <div key={person.id} className="grid-container">
               <span className="grid-item name-span">{person.name}</span>
               <span className="grid-item phone-span">{person.phone}</span>
-              <button className="delete-btn">DELETE</button>
+              <button className="delete-btn" onClick={deleteHandler}>DELETE</button>
             </div>
           })
         }
