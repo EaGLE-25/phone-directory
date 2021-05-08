@@ -13,8 +13,10 @@
 }
 
 .name-span,.phone-span{
-    color: grey;
     font-size: 1rem;
+}
+.heading{
+    color: gray;
 }
 .grid-container{
     display: grid;
