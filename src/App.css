@@ -11,3 +11,14 @@
     padding: 1rem 2rem;
     min-height: 100vh;
 }
+
+.name-span,.phone-span{
+    color: grey;
+    font-size: 1rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 40% 30% auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
