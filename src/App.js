@@ -15,7 +15,7 @@ function App() {
   ]
   return (
     <div>
-      <Header/>
+      <Header headerName="Phone Directory"/>
       <div className="wrapper">
         <button className="add-btn">ADD</button>
         <div className="grid-container">
@@ -27,6 +27,7 @@ function App() {
             return <div key={person.id} className="grid-container">
               <span className="grid-item name-span">{person.name}</span>
               <span className="grid-item phone-span">{person.phone}</span>
+              <button className="delete-btn">DELETE</button>
             </div>
           })
         }

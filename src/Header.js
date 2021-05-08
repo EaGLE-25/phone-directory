@@ -1,9 +1,9 @@
 import "./Header.css";
 
-function Header(){
+function Header(props){
     return (
         <header className="header">
-            Phone Directory
+            {props.headerName}
         </header>
     )
 }
