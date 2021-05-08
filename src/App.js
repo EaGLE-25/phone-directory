@@ -1,6 +1,13 @@
+import Header from "./Header";
+import "./App.css"
 function App() {
   return (
-    <div>Phone directory</div>
+    <div>
+      <Header/>
+      <div className="wrapper">
+        <button className="add-btn">ADD</button>
+      </div>
+    </div>
   );
 }
 

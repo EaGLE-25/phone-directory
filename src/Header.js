@@ -1,6 +1,8 @@
+import "./Header.css";
+
 function Header(){
     return (
-        <header style={{textAlign:"center",backgroundColor:"black",textTransform:"uppercase",color:"white",padding:20}}>
+        <header className="header">
             Phone Directory
         </header>
     )

@@ -1,0 +1,13 @@
+.add-btn{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: green;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.wrapper{
+    padding: 1rem 2rem;
+    min-height: 100vh;
+}
