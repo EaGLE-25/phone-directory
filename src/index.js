@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "./commons/commons.css";
-import AddSubscriber from './AddSubscriber';
+// import AddSubscriber from './AddSubscriber';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AddSubscriber></AddSubscriber>
+    <App></App>
+    {/* <AddSubscriber></AddSubscriber> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
