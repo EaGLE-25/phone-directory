@@ -6,19 +6,19 @@ class App extends Component{
   constructor(){
     super();
     this.state={
-      subscribers : [
-        {
-          id:1,
-          name:"Sai Darshan",
-          phone:"8951426231"
-        },
-        {
-          id:2,
-          name:"Doyle",
-          phone:"7019879155"
-        }
-      ]
+      subscribers : []
     }
+  }
+
+  componentDidMount(){
+    const state = this.state;
+    const newSubscriber = {
+      id:1,
+      name:"Sai Darshan",
+      phone:"8951426231"
+    }
+    state.subscribers.push(newSubscriber);
+    this.setState(state);
   }
 
   render(){
